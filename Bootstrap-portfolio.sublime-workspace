@@ -1,0 +1,236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Bootstrap-Portfolio"
+	],
+	"file_history":
+	[
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/index.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Bootstrap-Portfolio/index.html",
+		"/Users/Reid/Downloads/prompt-sushi.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/2.2/html-template.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/assets/css/style.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/assets/css/reset.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/1.3/GWU Bootcamp",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/contact.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Week_1-Homework/Instructions/recommended-homework-assignment.md",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/portfolio.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/2.1/February 7, 2017",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/index_test.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/2.1/HerokuRepo/index.php",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/assets/css/style_test.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Assignments/Basic-Portfolio/index_with_tables.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/week-1-day-2/html-css/Class_2_Notes",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/week-1-day-2/html-css/css/style.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/week-1-day-2/html-css/index.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/week-1-day-2/style.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/Class 2/style.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/Class 2/CSS Work/Assets/style.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/Class 2/CSS Work/index.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/Class 2/style2.css",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/Class 2/index.html",
+		"/Users/Reid/Google Drive/GWU-Bootcamp/Classes/Class 2/untitled.html",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 9 - CSS/style.css",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 9 - CSS/index.html",
+		"/Users/Reid/lesson-2-ftw/bob.html",
+		"/Users/Reid/Google Drive/Prework_RDH/Assignment 6 - Pseudo Code/Assignment #6",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 10 - Javascript/index.html",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 10 - Javascript/javascript.js",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 7 - Debugging/WorkingCode/logic.js",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 7 - Debugging/WorkingCode/GrumpyCat.html",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/Prework_RDH/Assignment 9 - CSS/fanpage.html",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/GWU - Bootcamp Assignment #7",
+		"/Users/Reid/Downloads/Broken_and_Working_Code/WorkingCode/style.css",
+		"/Users/Reid/Downloads/Broken_and_Working_Code/WorkingCode/GrumpyCat.html",
+		"/Users/Reid/Downloads/Broken_and_Working_Code/WorkingCode/logic.js",
+		"/Users/Reid/Downloads/Broken_and_Working_Code/BrokenCode/style.css",
+		"/Users/Reid/Downloads/Broken_and_Working_Code/BrokenCode/logic.js",
+		"/Users/Reid/Downloads/Broken_and_Working_Code/BrokenCode/BooTheDog.html",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/GWBC - Prework Assignment 2",
+		"/Users/Reid/Documents/GWU Coding Bootcamp/GWBC - Prework Assignment 3"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</table>",
+			"<table>",
+			"<tr>",
+			"</tr>",
+			"</td>",
+			"<td>",
+			"<td",
+			"<td>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Bootstrap-portfolio.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

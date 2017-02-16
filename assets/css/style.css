@@ -24,6 +24,7 @@ header {
 
 }
 
+
 footer {
 	position:fixed;
 	bottom:0;
@@ -42,11 +43,7 @@ footer {
 
 h1 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	/*float:left;*/
-	/*position:relative;*/
-	/*left:10px;*/
 	text-align: center;
-	/*width:33%;*/
 	color:#ffffff;
 }
 
@@ -62,20 +59,21 @@ a:link, a:visited, a:hover, a:active  {
 }
 
 #logo {
-	display:inline-block;
-	position:relative;
+	/*display:inline-block;*/
+	position:absolute;
 	left:75px;
+	top:0px;
 	text-align: center;
-
+	
 	height:75px;
 	width:255px;
-
+	
 	background:#4aaaa5;
 	white-space:nowrap;
 
 }
 
-#links {
+#nav-links {
 	float:right;
 	width:33%;
 	font-size:20px;
@@ -83,6 +81,7 @@ a:link, a:visited, a:hover, a:active  {
 
 #full {
 	clear:both;
+	width:100%;
 }
 
 
@@ -92,14 +91,13 @@ a:link, a:visited, a:hover, a:active  {
 	top:50px;
 	
 	display:inline-block;
-	float:left;
+	/*float:left;*/
 	
-	width:50%;
+	max-width:700px;
 	min-height:500px;
 	
-	/*border: solid 10px green;*/
-	padding:2%;
-	margin: 5%;
+	padding:20px;
+	margin: 20px;
 
 	background:#ffffff;
 	
@@ -107,31 +105,70 @@ a:link, a:visited, a:hover, a:active  {
 	
 	box-shadow: 10px 10px 5px #888888;
 }
+
+#right-block {
+
+	display:inline-block;
+	position:relative;
+	/*top:50px;*/
+	
+	max-width:200px;
+	padding:20px;
+	margin:30px;
+	
+	background:#ffffff;
+	
+	color:#666;
+	text-align:center;
+
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+.bio-image {
+	display:inline-block;
+	/*float:left;*/
+}
+
+.icon {	
+	display:inline-block;
+
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	width: 65px;
+	height: 65px;
+}
+
 .project {
 	position: relative;
 	float:left;
 	margin: 10px;
 }
 
-.banner {
+.project-banner {
 	position:absolute;
 	display:inline-block;
 	z-index: 3000;
-	height: 40px;
-	width: 250px;
-
-	left:0px;
+	left: 0px;
 	bottom: 20px;
-	
 	background:#4aaaa5;
+	
 	white-space:nowrap;
 	text-align: center;
-	overflow:hidden;
+
 
 	color: #ffffff;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+.project-name {
+	height: 20px;
+	width: 250px;
+	line-height: 20px;
+	text-align: center;
+}
 #contact {}
 
 #contact-submit {
@@ -140,33 +177,101 @@ a:link, a:visited, a:hover, a:active  {
 	width:60px;
 	text-align:center;
 }
-#right-block {
-	/*border: solid 10px red;*/
-	display:inline-block;
-	position:relative;
-	top:50px;
-	
-	/*	width:30%;*/
-	padding:2%;
-	margin:5%;
-	
-	background:#ffffff;
-	
-	color:#666;
-	text-align:center;
 
-	box-shadow: 10px 10px 5px #888888;
+@media only screen and (max-width: 768px) {
+
+#left-block {
+	/*Box Structure*/
+	/*position:relative;
+	top:50px;
+	*/
+	display:block;
+	/*float:left;*/
 	
+	max-width:768px;
+	width:80%;	
+
+	margin-bottom:40px;
+	margin:0 auto;
+
+	
+	padding:20px;
+	/*margin: 20px;*/	
 }
 
-.icon {	
-	display:inline-block;
-
-	padding-left:10px;
-	padding-right:10px;
-	padding-top:10px;
-	padding-bottom:10px;
+#right-block {
+	display:block;
+	/*position:absolute;*/
+	/*top:50px;*/
 	
-	width: 75px;
-	height: 75px;
+	width:80%;
+	max-width:768px;
+	margin:0 auto;
+
+	padding:20px;
+	/*margin:30px;*/
+}
+}
+
+@media only screen and (max-width: 640px) {
+   #left-block {
+	/*Box Structure*/
+	/*position:relative;
+	top:50px;
+	*/
+	top:150px;
+	display:block;
+	/*float:left;*/
+	
+	max-width:640px;
+	width:80%;	
+
+	margin-bottom:40px;
+	margin:0 auto;
+
+	
+	padding:20px;
+	/*margin: 20px;*/	
+	}
+
+	#right-block {
+		display:block;
+		/*position:absolute;*/
+		/*top:50px;*/
+		
+		width:80%;
+		max-width:640px;
+		margin:0 auto;
+
+		padding:20px;
+		/*margin:30px;*/
+	}
+
+	#logo {
+		/*display:inline-block;*/
+		clear:both;
+		position:absolute;
+		left:0px;
+		top:0px;
+		text-align: center;
+		
+		height:75px;
+		width:100%;
+		
+		background:#4aaaa5;
+		white-space:nowrap;
+
+	}
+
+	#nav-links {
+		clear:both;
+		display:block;
+		position:relative;
+		top:75px;
+		width:100%;
+		font-size:16px;
+		background:#ffffff;
+		text-align:center;
+
+	}
 }
